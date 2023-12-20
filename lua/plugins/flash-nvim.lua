@@ -2,7 +2,7 @@ return {
     "folke/flash.nvim",
     enabled = true,
     event = "VeryLazy",
-    opts = {},
+    version = "*", -- Use for stability; omit to use `main` branch for the latest features
     keys = {{
         "s",
         mode = {"n", "x", "o"},
@@ -10,12 +10,5 @@ return {
             require("flash").jump()
         end,
         desc = "Flash"
-    }, {
-        "r",
-        mode = "o",
-        function()
-            require("flash").remote()
-        end,
-        desc = "Remote Flash"
     }}
 }

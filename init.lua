@@ -1,5 +1,6 @@
 -- for macos, place it in ~/.config/nvim/
 -- for windows, place it in %APPDATA%\nvim\
+-- disable auto commenting new lines
 vim.cmd("autocmd BufEnter * set formatoptions-=cro")
 
 -- bootstrap lazy.nvim
@@ -11,4 +12,5 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- load plugins
 require("lazy").setup("plugins")
