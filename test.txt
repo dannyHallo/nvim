@@ -1,3 +1,8 @@
+Plan:
+quick save and format
+rebind the keymaps of flash.nvim, to use enter instead of s
+bring surround back, to work with functions
+
 The quick brown fox jumps over the lazy dog.
 The quick brown fox jumps over the lazy dog.
 The quick brown fox jumps over the lazy dog.
