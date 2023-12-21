@@ -1,6 +1,6 @@
 return {
     "folke/flash.nvim",
-    enabled = true,
+    enabled = false,
     event = "VeryLazy",
     version = "*", -- Use for stability; omit to use `main` branch for the atest features
     keys = {{
