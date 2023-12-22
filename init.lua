@@ -3,6 +3,9 @@
 -- disable auto commenting new lines
 vim.cmd("autocmd BufEnter * set formatoptions-=cro")
 
+vim.o.ignorecase = true -- ignore case letters when searching
+vim.o.smartcase = true -- make searches case-sensitive if there's an uppercase letter - this is only useful when ignorecase is also set
+
 -- bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
