@@ -1,10 +1,10 @@
 return {
     "folke/flash.nvim",
-    enabled = false,
+    enabled = true,
     event = "VeryLazy",
     version = "*", -- Use for stability; omit to use `main` branch for the atest features
     keys = {{
-        "<cr>",
+        "<cr>", -- use the enter key to replace the functionality of s, to use surround with this extension
         mode = {"n", "x", "o"},
         function()
             require("flash").jump()
