@@ -1,3 +1,5 @@
+## Config guidelines:
+
 ### For Windows: 
 this repo under C:/User/<user-name>/AppData/Local
 
