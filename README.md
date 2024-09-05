@@ -1,7 +1,9 @@
 ## Config guidelines:
 
 ### For Windows: 
-clone this repo under `C:/User/<user-name>/AppData/Local`
+`cd C:/User/<user-name>/AppData/Local`
+`git clone https://github.com/dannyHallo/nvim.git`
 
 ### For MacOS: 
-clone this repo under `~/.config/`
+`cd ~/.config/`
+`git clone https://github.com/dannyHallo/nvim.git`
