@@ -2,7 +2,7 @@
 
 ### For Windows: 
 ```bash
-cd C:/User/<user-name>/AppData/Local
+cd %USERPROFILE%/AppData/Local
 git clone https://github.com/dannyHallo/nvim.git
 ```
 
