@@ -1,5 +1,11 @@
 ## Config guidelines:
 
+### Install neovim first
+
+<https://github.com/neovim/neovim/blob/master/INSTALL.md>
+
+For MacOS, you may want to use homebrew to install neovim.
+
 ### For Windows: 
 ```bash
 cd %USERPROFILE%/AppData/Local
